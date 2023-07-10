@@ -24,6 +24,8 @@ Agustin Santiago Ponce: Soy estudiante de la tecnicatura de diseño de videojueg
 
 Camila Melisa Benegas: Tengo 23 años. Me gusta mucho los números y los calculos, por lo que estudio profesorado de Matematicas. El area de informatica me cuesta pero es algo que me gustaria aprender porque siento que es el futuro. En mis tiempos libres me encanta escribir canciones, poemas, mini historias,etc. Quiero aprender de todo un poco y abrir mi futuro a diferentes posibilidades 
 
+Lourdes Maidana Rojas: Estudiante de secundaria con orientación en las Ciencias Naturales. Apasionada por los deportes. Disfruto pasar tiempo con mi familia y escuchar música. Tengo altas habilidades para escuchar y comprender a los demás. Siempre estoy abierta y dispuesta a nuevas ideas.
+
 Sitios de referencia:
 
 https://www.famusic.com.ar/
