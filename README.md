@@ -22,6 +22,8 @@ Samuel Angel Salas (Chamu): Soy estudiante de una secundaria pre-univesitaria, e
 
 Agustin Santiago Ponce: Soy estudiante de la tecnicatura de diseño de videojuegos, en la facultad de ingeniería. Voy a dar mi mejor esfuerzo para aprender todo lo enseñado en el curso. Me encantan los animales, la música y los videojuegos. Trabajo en un negocio familiar de venta de alimento de animales. Tengo pensado seguir adelante y aprender a programar como mi hermano. Saludos !!!
 
+Camila Melisa Benegas: Tengo 23 años. Me gusta mucho los números y los calculos, por lo que estudio profesorado de Matematicas. El area de informatica me cuesta pero es algo que me gustaria aprender porque siento que es el futuro. En mis tiempos libres me encanta escribir canciones, poemas, mini historias,etc. Quiero aprender de todo un poco y abrir mi futuro a diferentes posibilidades 
+
 Sitios de referencia:
 
 https://www.famusic.com.ar/
