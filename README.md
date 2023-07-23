@@ -26,6 +26,7 @@ Equipo:
 
 -Lourdes Maidana Rojas: Estudiante de secundaria con orientación en las Ciencias Naturales. Apasionada por los deportes. Disfruto pasar tiempo con mi familia y escuchar música. Tengo altas habilidades para escuchar y comprender a los demás. Siempre estoy abierta y dispuesta a nuevas ideas.
 
+-Mateo Martin Calisaya: Ultimo año de secundaria, tengo 18 años. Aun no decidi que carrera univeritaria seguire para el año siguientre. Soy apasionado de la musica como del futbol e hincha de Gimnasia de Jujuy. Soy muy nuevo en el mundo de la programacion, pero lo veo como algo necesario e interesante, por lo que decidi entrar a este curso.
 Sitios de referencia:
 
 https://www.famusic.com.ar/
