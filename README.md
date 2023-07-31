@@ -26,7 +26,8 @@ Equipo:
 
 -Lourdes Maidana Rojas: Estudiante de secundaria con orientación en las Ciencias Naturales. Apasionada por los deportes. Disfruto pasar tiempo con mi familia y escuchar música. Tengo altas habilidades para escuchar y comprender a los demás. Siempre estoy abierta y dispuesta a nuevas ideas.
 
--Mateo Martin Calisaya: Ultimo año de secundaria, tengo 18 años. Aun no decidi que carrera univeritaria seguire para el año siguientre. Soy apasionado de la musica como del futbol e hincha de Gimnasia de Jujuy. Soy muy nuevo en el mundo de la programacion, pero lo veo como algo necesario e interesante, por lo que decidi entrar a este curso.
+-Mateo Martin Calisaya: Ultimo año de secundaria, tengo 18 años. Aún no decidí que carrera univeritaria seguire para el año siguiente. Soy apasionado de la música como del fútbol e hincha de Gimnasia de Jujuy. Soy muy nuevo en el mundo de la programación, pero lo veo como algo necesario e interesante, por lo que decidí entrar a este curso.
+
 Sitios de referencia:
 
 https://www.famusic.com.ar/
@@ -60,4 +61,3 @@ https://www.musimundo.com/?gclid=Cj0KCQjw756lBhDMARIsAEI0AgkXznQp4flOIfT4fnM7Pjt
 https://www.adidas.com.ar/?=null&=null&-_-ds_agid=58700004850253847&-_-ds_kid=43700041731365975-_-&af_channel=Search&af_reengagement_window=30d&c=Trademark-adidas-General-B-Exact&cm_mmc=AdieSEM_Google-_-Trademark-adidas-General-B-Exact-_-Trademark-adidas-X-General-_-adidas-_--_-dv%3AeCom-_-cm_mmca1%3DAR-_-cm_mmc2%3D&gclid=Cj0KCQjw756lBhDMARIsAEI0Agm9V451iOCqfdaMKleEV_2tYtQQfeKeq0GqWtavr1zFjR15zYX61igaAgGeEALw_wcB&gclsrc=aw.ds&is_retargeting=true&pid=googleadwords_temp
 
 (Estructura y distribución)
-
