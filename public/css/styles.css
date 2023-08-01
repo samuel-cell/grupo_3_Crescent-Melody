@@ -1,20 +1,15 @@
 body {
-    background-color: grey;
+    background-color: rgb(102, 104, 98);
     font-family: Georgia, sans-serif ;
 }
 
-#parrafoSup {
-    text-align: center;
-    background-color: antiquewhite;
-}
 
 #main {
- background-color: aqua;
+ background-color: rgb(190, 190, 14);
+ padding: 10px;
 }
 
-.secciones {
-    background-color: azure;
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-# main5{
-
