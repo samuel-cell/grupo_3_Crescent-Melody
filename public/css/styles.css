@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(102, 104, 98);
-    font-family: Georgia, sans-serif ;
+    font-family: 'Roboto', sans-serif ;
 }
 
 
@@ -12,4 +16,8 @@ body {
 .articulos {
     display: flex;
     flex-wrap: wrap;
+}
+
+#pa1 {
+ color: rgb(34, 39, 39);
 }
