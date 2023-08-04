@@ -3,31 +3,43 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: rgb(127, 145, 79);
 
 }
 
 .contenedorPadre {
-background-color: gray;
+background-color: rgb(153, 149, 149);
 width: 1350px;
 height: 1000px;
 padding: 5px;
 }
 
 .contenedorHijo {
-    background-color:darkkhaki;
+    background-color:rgb(230, 229, 221);
     display: flex;
     flex-wrap: nowrap;
     width: 1200px;
     justify-content: space-between;
     padding: 5px;
-    border:dashed 2px red;
+    border:dashed 1px rgb(59, 54, 54);
     text-align: center;
     align-items: center;
 }
 
-.contenedorHijo h3 {
-    font-family:Arial, Helvetica, sans-serif;
+
+
+
+.items {
+    width: 200px;
+    height: 150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border: dashed 0.5px rgb(102, 145, 41);
+    padding: 3px;
+}
+
+.texto-largo {
+    font-size: 13px;
 }
 
 button {
