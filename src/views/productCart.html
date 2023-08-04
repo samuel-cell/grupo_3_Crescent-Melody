@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle del Producto</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/detallesCarrito.css">
     <script src="https://kit.fontawesome.com/d6458ce523.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,31 +18,60 @@
             </section> 
         </div>
     </header>
-    <h1>CARRITO DE COMPRAS</h1>
-    <main id="main">
-        
-        <div >
-          <article class="articulos">
-                <img src="/images/bateria-pearl.jpg" alt="bateria img">
-                <p id="pa1"> Bateria Pearl Decade Maple 229 White Satin Pearl 4 Cuerpos</p>
-        </article>  
-        </div>
-        <br>
-        <div >
-            <article class="articulos">
-                    <img src="/images/guitarra-clasica-valencia.jpg" alt="guitarra img">
-                    <p id="pa1">Guitarra Criolla Gracia M5 Negro Clasica 3/4</p>  
-            </article>
-        </div>
-        <br>
-        <div >
-            <article class="articulos">               
-                <img src="/images/guitarra-negra-criolla-gracia-.jpg" alt="guitarra img2">
-                <p>Guitarra Clasica Valencia | Intermedio | Tamaño Niño | VC203CSB | Color Esfumado Clasico Satinado</p>
-            </article>            
-        </div>
+        <main>
+            <div><h1>CARRITO DE COMPRAS</h1></div>
+            <div class="contenedorPadre">
+                <div class="contenedorHijo">
+                    <img src="/images/guitarra-clasica-valencia.jpg" alt="" class="producto-foto">
+                    <div>
+                        <h3>guitarra electrica sound crescente-melody</h3>
+                        <a href="#">eliminar</a>
+                    </div>
+                    <div>
+                        <p>cantidad</p>
+                        <input type="number" value="1" min="1" max="10"> 
+                    </div>
+                    <div>
+                        <p>precio</p>
+                        <p>$250.000</p>   
+                    </div>
+                </div>
+                <div class="contenedorHijo">
+                    <img src="/images/bateria-pearl.jpg" alt="" class="producto-foto">
+                    <div>
+                        <h3>Bateria Pearl Decade Maple 229 White Satin Pearl 4 Cuerpos</h3>
+                        <a href="#">eliminar</a>
+                    </div>
+                    <div>
+                        <p>cantidad</p>
+                        <input type="number" value="1" min="1" max="10"> 
+                    </div>
+                    <div>
+                        <p>precio</p>
+                        <p>$470.000</p>
+                    </div>
+                </div>
+                <div class="contenedorHijo">
+                    <img src="/images/guitarra-negra-criolla-gracia-.jpg" alt="" class="producto-foto">
+                    <div>
+                        <h3>guitarra negra criolla Gracia</h3>
+                        <a href="#">eliminar</a>
+                    </div>
+                    <div>
+                        <p>cantidad</p>
+                        <input type="number" value="1" min="1" max="10"> 
+                    </div>
+                    <div>
+                        <p>precio</p>
+                        <p>$600.000</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
 
-    </main>
+
+
 
     <footer>
         <section>
