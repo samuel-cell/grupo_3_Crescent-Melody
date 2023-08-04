@@ -7,141 +7,170 @@
     <link href="/public/css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="contenedor-encabezado-">
-        <header>
-            <div>
-                <ul>
-                    <li>Instrumentos de Cuerdas</li>
+    <div class="contenedor-encabezado-principal">
+        <header id="encabezado-principal">
+            <div class="menu">
+                <button class="menu-burger-boton">Menú</button>
+                <ul type="none" class="menu-burger">
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Instrumentos de Cuerdas</a>
+                    </li>
                     <hr>
-                    <li>Instrumentos de Viento</li>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Instrumentos de Viento</a>
+                    </li>
                     <hr>
-                    <li>Teclados y Pianos</li>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Teclados y Pianos</a>
+                    </li>
                     <hr>
-                    <li>Baterías y Percusión</li>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Baterías y Percusión</a>
+                    </li>
                     <hr>
-                    <li>Padales y Accesorios</li>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Padales y Accesorios</a>
+                    </li>
                     <hr>
-                    <li>Parlantes</li>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Parlantes</a>
+                    </li>
                     <hr>
-                    <li>Micrófonos y Amplificadores</li>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Micrófonos y Amplificadores</a>
+                    </li>
                     <hr>
-                    <li>Electrónica, Audio y Video</li>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Electrónica, Audio y Video</a>
+                    </li>
                     <hr>
-                    <li>Estudio de Grabación</li>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Estudio de Grabación</a>
+                    </li>
                     <hr>
-                    <li>Equipos de DJ y Accesorios</li>
-                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Equipos de DJ y Accesorios</a>
+                    </li>
                 </ul>
-                <h1>Crescent Melody</h1>
-                    <p>"¡Instrumentos y equipos para encontrar tu melodía!"</p>
-                <nav>
-                    <form>
-                        <input type="text" name="buscar">
-                        <button type="submit">Buscar</button>
+            </div>
+            <h1 id="nombre-de-la-tienda">Crescent Melody</h1>
+            <div class="contenedor-navegacion-principal">
+                <nav id="navegacion-principal">
+                    <form class="barra-de-busqueda">
+                        <input type="text" name="buscar" id="busqueda" placeholder="Buscar">
+                        <button type="submit" id="busqueda-boton">Buscar</button>
                     </form>
-                    <a href="./login.html">Iniciar sesión</a>
-                    <a href="./register.html">Registrarse</a>
-                    <a href="./productCart.html">Carrito</a>
+                    <div class="contenedor-usuario">
+                        <a class="carrito" href="./productCart.html">Cart</a>
+                        <button class="usuario-boton">User</button>
+                        <ul type="none" class="usuario">
+                            <li class="usuario__opcion">
+                                <a class="usuario__opcion-link" href="./login.html">Iniciar sesión</a>
+                            </li>
+                            <hr>
+                            <li class="usuario__opcion">
+                                <a class="usuario__opcion-link" href="./register.html">Registrarse</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>
+        <div class="banner">
+            <!-- banner -->
+        </div>
     </div>
-    <main>
-        <div>
-            <section>
-                <div>
-                    <ul>
-                        <li>MÁS POPULARES</li>
-                        <li>MÁS VENDIDOS EN ESTA SEMANA</li>
+    <main id="contenedor-secciones-de-compra">
+        <div class="contenedor-seccion-productos">
+            <section id="seccion-principal">
+                <div class="contenedor-seccion-principal">
+                    <ul type="none" class="secciones">
+                        <li class="secciones__productos-destacados">MÁS POPULARES</li>
+                        <li class="secciones__productos-destacados">MÁS VENDIDOS EN ESTA SEMANA</li>
                     </ul>
-                    <div>
-                        <div>
+                    <div class="contenedor-carusel-productos-1">
+                        <div class="carusel-productos-1">
                             <!-- boton a la izquierda -->
-                            <div>
-                                <div class="prod1">
-                                    <div>
+                            <div class="contenedor-productos">
+                                <div class="contenedor-productos__individual">
+                                    <div class="contenedor-productos__individual-1">
                                         <a href="./productDetail.html">
-                                            <div>
+                                            <div class="imagen-del-producto">
                                                 <!-- Imagen del producto-->
                                             </div>
-                                            <div>
-                                                <div>
-                                                    <!-- Precio -->
-                                                    <h4>Precio</h4>
+                                            <div class="detalle-del-producto">
+                                                <div class="contenedor-precio">
+                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
                                                 </div>
-                                                <p>
+                                                <p class="nombre-del-producto">
                                                     Nombre del Producto
                                                 </p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="prod2">
-                                    <div>
+                                <div class="contenedor-productos__individual">
+                                    <div class="contenedor-productos__individual-2">
                                         <a href="./productDetail.html">
-                                            <div>
+                                            <div class="imagen-del-producto">
                                                 <!-- Imagen del producto-->
                                             </div>
-                                            <div>
-                                                <div>
-                                                    <!-- Precio -->
-                                                    <h4>Precio</h4>
+                                            <div class="detalle-del-producto">
+                                                <div class="contenedor-precio">
+                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
                                                 </div>
-                                                <p>
+                                                <p class="nombre-del-producto">
                                                     Nombre del Producto
                                                 </p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="prod3">
-                                    <div>
+                                <div class="contenedor-productos__individual">
+                                    <div class="contenedor-productos__individual-3">
                                         <a href="./productDetail.html">
-                                            <div>
+                                            <div class="imagen-del-producto">
                                                 <!-- Imagen del producto-->
                                             </div>
-                                            <div>
-                                                <div>
-                                                    <!-- Precio -->
-                                                    <h4>Precio</h4>
+                                            <div class="detalle-del-producto">
+                                                <div class="contenedor-precio">
+                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
                                                 </div>
-                                                <p>
+                                                <p class="nombre-del-producto">
                                                     Nombre del Producto
                                                 </p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="prod4">
-                                    <div>
+                                <div class="contenedor-productos__individual">
+                                    <div class="contenedor-productos__individual-4">
                                         <a href="./productDetail.html">
-                                            <div>
+                                            <div class="imagen-del-producto">
                                                 <!-- Imagen del producto-->
                                             </div>
-                                            <div>
-                                                <div>
-                                                    <!-- Precio -->
-                                                    <h4>Precio</h4>
+                                            <div class="detalle-del-producto">
+                                                <div class="contenedor-precio">
+                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
                                                 </div>
-                                                <p>
+                                                <p class="nombre-del-producto">
                                                     Nombre del Producto
                                                 </p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="prod5">
-                                    <div>
+                                <div class="contenedor-productos__individual">
+                                    <div class="contenedor-productos__individual-5">
                                         <a href="./productDetail.html">
-                                            <div>
+                                            <div class="imagen-del-producto">
                                                 <!-- Imagen del producto-->
                                             </div>
-                                            <div>
-                                                <div>
-                                                    <!-- Precio -->
-                                                    <h4>Precio</h4>
+                                            <div class="detalle-del-producto">
+                                                <div class="contenedor-precio">
+                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
                                                 </div>
-                                                <p>
+                                                <p class="nombre-del-producto">
                                                     Nombre del Producto
                                                 </p>
                                             </div>
@@ -155,52 +184,58 @@
                 </div>
             </section>
         </div>
-        <div>
-            <section>
-                <ul>
-                    <li>
-                        <a href="">
-                            <strong>MÉTODO DE PAGO</strong>
-                            <p>Paga tus compras por el medio que quieras</p>
+        <div class="contenedor-seccion-compra">
+            <section id="seccion-compra">
+                <ul type="none" class="pago-envio-carrito">
+                    <li class="pago-envio-carrito__apartado">
+                        <a class="pago-envio-carrito__apartado-link" href="">
+                            <strong class="referencia-compra">MÉTODO DE PAGO</strong>
+                            <p class="texto-de-referencia-de-compra">Paga tus compras por el medio que quieras</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="">
-                            <strong>ENVÍOS GRATIS</strong>
-                            <p>Ver productos</p>
+                    <li class="pago-envio-carrito__apartado"> 
+                        <a class="pago-envio-carrito__apartado-link" href="">
+                            <strong class="referencia-compra">ENVÍOS GRATIS</strong>
+                            <p class="texto-de-referencia-de-compra">Ver productos</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="">
-                            <strong>CARRITO</strong>
-                            <p>Mira tus compras hasta el momento</p>
+                    <li class="pago-envio-carrito__apartado">
+                        <a class="pago-envio-carrito__apartado-link" href="./productCart.html">
+                            <strong class="referencia-compra">CARRITO</strong>
+                            <p class="texto-de-referencia-de-compra">Mira tus compras hasta el momento</p>
                         </a>
                     </li>
                 </ul>
             </section>
         </div>
     </main>
-    <footer>
-        <div>
-            <div>
+    <footer id="pie-de-pagina">
+        <div class="contenedor-de-descripcion-tienda">
+            <div id="logo-pie-de-pagina">
                 <!-- Logo con link-->
             </div>
-            <p>
-                Descripción de la tienda
+            <p class="descripcion-tienda">
+                <span class="nombre-tienda">Crescent Melody</span><br>"¡Instrumentos y equipos para encontrar tu melodía!"<br>Tienda de instrumentos músicales al mejor precio.<br>Envío a todo el país y hasta 12 cuotas sin interés.
             </p>
         </div>
-        <div>
-            <h4>INFO</h4>
-            <ul>
-                <li><a href="">Sobre nosotros</a></li>
-                <li><a href="">Términos y acuerdos</a></li>
-                <li><a href="">Cómo comprar</a></li>
+        <div class="contenedor-de-informacion">
+            <h4 class="info-contacto">INFO</h4>
+            <ul type="none" class="informacion">
+                <li class="informacion__opcion">
+                    <a class="informacion__opcion-link" href="">Sobre nosotros</a>
+                </li>
+                <li class="informacion__opcion">
+                    <a class="informacion__opcion-link" href="">Términos y acuerdos</a>
+                </li>
+                <li class="informacion__opcion">
+                    <a class="informacion__opcion-link" href="">Cómo comprar</a>
+                </li>
             </ul>
-            <h4>CONTACTO</h4>
-            <ul>
-                <li><a href="">Nro de teléfono</a></li>
-                <li><a href="">Correo</a></li>
-                <li>Dirección</li>
+            <h4 class="info-contacto">CONTACTO</h4>
+            <ul type="none" class="contacto">
+                <li class="contacto__opcion">+54-1234567</li>
+                <li class="contacto__opcion">crescentmelody01@gmail.com</li>
+                <li class="contacto__opcion">Dirección</li>
             </ul>
         </div>
     </footer>

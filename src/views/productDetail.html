@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Detalle de Producto - Guitarra Modelo 84</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/public/css/productDetail.css">
 </head>
 <body>
+    <div class="contenedor-encabezado-principal">
+        <header id="encabezado-principal">
+            <div class="menu">
+                <button class="menu-burger-boton">Menú</button>
+                <ul type="none" class="menu-burger">
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Instrumentos de Cuerdas</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Instrumentos de Viento</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Teclados y Pianos</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Baterías y Percusión</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Padales y Accesorios</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Parlantes</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Micrófonos y Amplificadores</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Electrónica, Audio y Video</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Estudio de Grabación</a>
+                    </li>
+                    <hr>
+                    <li class="menu-burger__opcion">
+                        <a class="menu-burger__seccion-link" href="">Equipos de DJ y Accesorios</a>
+                    </li>
+                </ul>
+            </div>
+            <h1 id="nombre-de-la-tienda">Crescent Melody</h1>
+            <div class="contenedor-navegacion-principal">
+                <nav id="navegacion-principal">
+                    <form class="barra-de-busqueda">
+                        <input type="text" name="buscar" id="busqueda" placeholder="Buscar">
+                        <button type="submit" id="busqueda-boton">Buscar</button>
+                    </form>
+                    <div class="contenedor-usuario">
+                        <a class="carrito" href="./productCart.html">Cart</a>
+                        <button class="usuario-boton">User</button>
+                        <ul type="none" class="usuario">
+                            <li class="usuario__opcion">
+                                <a class="usuario__opcion-link" href="./login.html">Iniciar sesión</a>
+                            </li>
+                            <hr>
+                            <li class="usuario__opcion">
+                                <a class="usuario__opcion-link" href="./register.html">Registrarse</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="banner">
+            <!-- banner -->
+        </div>
+    </div>
     <div class="product-container">
         <div class="product-header">
             <img src="https://http2.mlstatic.com/D_NQ_NP_998961-MLA49446070370_032022-O.webp" alt="Guitarra Modelo 84" class="product-image">
@@ -45,5 +118,35 @@
         <button class="add-to-cart-button">Agregar al Carrito</button>
     </div>
     <script src="script.js"></script>
+    <footer id="pie-de-pagina">
+        <div class="contenedor-de-descripcion-tienda">
+            <div id="logo-pie-de-pagina">
+                <!-- Logo con link-->
+            </div>
+            <p class="descripcion-tienda">
+                <span class="nombre-tienda">Crescent Melody</span><br>"¡Instrumentos y equipos para encontrar tu melodía!"<br>Tienda de instrumentos músicales al mejor precio.<br>Envío a todo el país y hasta 12 cuotas sin interés.
+            </p>
+        </div>
+        <div class="contenedor-de-informacion">
+            <h4 class="info-contacto">INFO</h4>
+            <ul type="none" class="informacion">
+                <li class="informacion__opcion">
+                    <a class="informacion__opcion-link" href="">Sobre nosotros</a>
+                </li>
+                <li class="informacion__opcion">
+                    <a class="informacion__opcion-link" href="">Términos y acuerdos</a>
+                </li>
+                <li class="informacion__opcion">
+                    <a class="informacion__opcion-link" href="">Cómo comprar</a>
+                </li>
+            </ul>
+            <h4 class="info-contacto">CONTACTO</h4>
+            <ul type="none" class="contacto">
+                <li class="contacto__opcion">+54-1234567</li>
+                <li class="contacto__opcion">crescentmelody01@gmail.com</li>
+                <li class="contacto__opcion">Dirección</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
