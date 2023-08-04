@@ -9,9 +9,9 @@ body {
 
 .contenedorPadre {
 background-color: rgb(153, 149, 149);
-width: 1350px;
+width: 1250px;
 height: 1000px;
-padding: 5px;
+padding: 10px;
 }
 
 .contenedorHijo {
@@ -46,4 +46,32 @@ button {
     width: 70px;
     height: 30px;
     align-items: center;
+}
+
+
+.contenedorHeader {
+    background-color: rgb(153, 149, 149);
+    width: 1230px;
+    height: 120px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.lista-item {
+    height: 50px;
+    border: dashed 0.5px rgb(102, 145, 41);
+    margin: auto;
+}
+
+.Item {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Item a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
