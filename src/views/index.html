@@ -4,240 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crescent Melody</title>
-    <link href="/public/css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="contenedor-encabezado-principal">
-        <header id="encabezado-principal">
-            <div class="menu">
-                <button class="menu-burger-boton">Menú</button>
-                <ul type="none" class="menu-burger">
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Instrumentos de Cuerdas</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Instrumentos de Viento</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Teclados y Pianos</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Baterías y Percusión</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Padales y Accesorios</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Parlantes</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Micrófonos y Amplificadores</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Electrónica, Audio y Video</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Estudio de Grabación</a>
-                    </li>
-                    <hr>
-                    <li class="menu-burger__opcion">
-                        <a class="menu-burger__seccion-link" href="">Equipos de DJ y Accesorios</a>
-                    </li>
-                </ul>
-            </div>
-            <h1 id="nombre-de-la-tienda">Crescent Melody</h1>
-            <div class="contenedor-navegacion-principal">
-                <nav id="navegacion-principal">
-                    <form class="barra-de-busqueda">
-                        <input type="text" name="buscar" id="busqueda" placeholder="Buscar">
-                        <button type="submit" id="busqueda-boton">Buscar</button>
-                    </form>
-                    <div class="contenedor-usuario">
-                        <a class="carrito" href="./productCart.html">Cart</a>
-                        <button class="usuario-boton">User</button>
-                        <ul type="none" class="usuario">
-                            <li class="usuario__opcion">
-                                <a class="usuario__opcion-link" href="./login.html">Iniciar sesión</a>
-                            </li>
-                            <hr>
-                            <li class="usuario__opcion">
-                                <a class="usuario__opcion-link" href="./register.html">Registrarse</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <div class="banner">
-            <!-- banner -->
+    <header>
+        <div class="conteiner-sup">
+            <img src="/images/CATARSIS.png" width="80px">
+
+                <form class="barra-de-busqueda">
+                    <input type="text" name="buscar" placeholder="Buscar">
+                    <button type="submit" id="busqueda-boton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <a href="./login.html">Iniciar sesión</a>
+                    <a href="./register.html">Registrarse</a>
+                </form>  
         </div>
+        
+        <div>
+            <ul type="none" class="menu-burger">
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Instrumentos de Cuerdas</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Instrumentos de Viento</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Teclados y Pianos</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Baterías y Percusión</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Padales y Accesorios</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Parlantes</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Micrófonos y Amplificadores</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Electrónica, Audio y Video</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Estudio de Grabación</a>
+            </li>
+            <li class="menu-burger__opcion">
+                <a class="menu-burger__seccion-link" href="">Equipos de DJ y Accesorios</a>
+            </li>
+            </ul>  
+        </div>
+
+        </div>
+
+    </header>
+    <div class="banner">
+        <!-- banner -->
     </div>
-    <main id="contenedor-secciones-de-compra">
-        <div class="contenedor-seccion-productos">
-            <section id="seccion-principal">
-                <div class="contenedor-seccion-principal">
-                    <ul type="none" class="secciones">
-                        <li class="secciones__productos-destacados">MÁS POPULARES</li>
-                        <li class="secciones__productos-destacados">MÁS VENDIDOS EN ESTA SEMANA</li>
-                    </ul>
-                    <div class="contenedor-carusel-productos-1">
-                        <div class="carusel-productos-1">
-                            <!-- boton a la izquierda -->
-                            <div class="contenedor-productos">
-                                <div class="contenedor-productos__individual">
-                                    <div class="contenedor-productos__individual-1">
-                                        <a href="./productDetail.html">
-                                            <div class="imagen-del-producto">
-                                                <!-- Imagen del producto-->
-                                            </div>
-                                            <div class="detalle-del-producto">
-                                                <div class="contenedor-precio">
-                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
-                                                </div>
-                                                <p class="nombre-del-producto">
-                                                    Nombre del Producto
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="contenedor-productos__individual">
-                                    <div class="contenedor-productos__individual-2">
-                                        <a href="./productDetail.html">
-                                            <div class="imagen-del-producto">
-                                                <!-- Imagen del producto-->
-                                            </div>
-                                            <div class="detalle-del-producto">
-                                                <div class="contenedor-precio">
-                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
-                                                </div>
-                                                <p class="nombre-del-producto">
-                                                    Nombre del Producto
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="contenedor-productos__individual">
-                                    <div class="contenedor-productos__individual-3">
-                                        <a href="./productDetail.html">
-                                            <div class="imagen-del-producto">
-                                                <!-- Imagen del producto-->
-                                            </div>
-                                            <div class="detalle-del-producto">
-                                                <div class="contenedor-precio">
-                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
-                                                </div>
-                                                <p class="nombre-del-producto">
-                                                    Nombre del Producto
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="contenedor-productos__individual">
-                                    <div class="contenedor-productos__individual-4">
-                                        <a href="./productDetail.html">
-                                            <div class="imagen-del-producto">
-                                                <!-- Imagen del producto-->
-                                            </div>
-                                            <div class="detalle-del-producto">
-                                                <div class="contenedor-precio">
-                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
-                                                </div>
-                                                <p class="nombre-del-producto">
-                                                    Nombre del Producto
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="contenedor-productos__individual">
-                                    <div class="contenedor-productos__individual-5">
-                                        <a href="./productDetail.html">
-                                            <div class="imagen-del-producto">
-                                                <!-- Imagen del producto-->
-                                            </div>
-                                            <div class="detalle-del-producto">
-                                                <div class="contenedor-precio">
-                                                    <h4 class="contenedor-precio__text-precio">Precio</h4>
-                                                </div>
-                                                <p class="nombre-del-producto">
-                                                    Nombre del Producto
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- boton a la derecha -->
-                        </div>
-                    </div>
+</div>
+
+<main>
+    <h2>BUSCAR POR CATEGORIAS</h2>
+        <div>
+            <section>
+                <div class="categorias">
+                    <h4>Viento</h4>
+                    <img src="/images/trompeta.jpg">
+                </div>
+                <div class="categorias">
+                    <h4>Percusion</h4>
+                    <img src="/images/redoblante.jpg">
+                </div>
+                <div class="categorias">
+                    <h4>Cuerda</h4>
+                    <img src="/images/guitarra-clasica-valencia.jpg">
+                </div>
+                <div class="categorias">
+                    <h4>Electricos</h4>
+                    <img src="/images/piano.jpg">
                 </div>
             </section>
         </div>
-        <div class="contenedor-seccion-compra">
-            <section id="seccion-compra">
-                <ul type="none" class="pago-envio-carrito">
-                    <li class="pago-envio-carrito__apartado">
-                        <a class="pago-envio-carrito__apartado-link" href="">
-                            <strong class="referencia-compra">MÉTODO DE PAGO</strong>
-                            <p class="texto-de-referencia-de-compra">Paga tus compras por el medio que quieras</p>
-                        </a>
-                    </li>
-                    <li class="pago-envio-carrito__apartado"> 
-                        <a class="pago-envio-carrito__apartado-link" href="">
-                            <strong class="referencia-compra">ENVÍOS GRATIS</strong>
-                            <p class="texto-de-referencia-de-compra">Ver productos</p>
-                        </a>
-                    </li>
-                    <li class="pago-envio-carrito__apartado">
-                        <a class="pago-envio-carrito__apartado-link" href="./productCart.html">
-                            <strong class="referencia-compra">CARRITO</strong>
-                            <p class="texto-de-referencia-de-compra">Mira tus compras hasta el momento</p>
-                        </a>
-                    </li>
-                </ul>
+    <h2>DESTACADOS</h2>
+        <div>
+            <section>
+                <div class="categorias">
+                    <img src="/images/trompeta-2.jpg">
+                    <p>Trompeta Bb Lincoln Winds Jytr1401 Dorada Estuche</p>
+                    <p>$ 274.000</p>
+                </div>
+                <div class="categorias">
+                    <img src="/images/bateria-2.jpg">
+                    <p>Bateria Acústica Parquer 5 Cuerpos Negra Platillos Soporte</p>
+                    <p>$ 311.357</p>
+                </div>
+                <div class="categorias">
+                    <img src="/images/ukelele.jpg">
+                    <p>Ukelele Tenor Electro Acustico Bamboo U-26 Sapele Con Eq</p>
+                    <p>$ 99.773</p>
+                </div>
+                <div class="categorias">
+                    <img src="/images/violin.jpg">
+                    <p>Violin 1/4 Custom Parquer Estuche/arco/resina Vl925 Cuota</p>
+                    <p>$ 65.792</p>
+                </div>
             </section>
         </div>
-    </main>
-    <footer id="pie-de-pagina">
-        <div class="contenedor-de-descripcion-tienda">
-            <div id="logo-pie-de-pagina">
-                <!-- Logo con link-->
+    <h2>OFERTAS</h2>
+    <div>
+        <section>
+            <div class="categorias">
+                <img src="/images/charango.jpg">
+                <p>Charango Mantini Caja De Cedro Tallado Tapa De Abeto</p>
+                <p>$ 168.657</p>
             </div>
-            <p class="descripcion-tienda">
-                <span class="nombre-tienda">Crescent Melody</span><br>"¡Instrumentos y equipos para encontrar tu melodía!"<br>Tienda de instrumentos músicales al mejor precio.<br>Envío a todo el país y hasta 12 cuotas sin interés.
-            </p>
+            <div class="categorias">
+                <img src="/images/panderetas.jpg">
+                <p>Pandereta Pandero 6 Knight 15 Cm Con Parche Y Sonaja 1712</p>
+                <p>$ 5.719</p>
+            </div>
+            <div class="categorias">
+                <img src="/images/platillos.jpg">
+                <p>Arborea Mute Gold Matte Set Platillos Bajo Volumen Practica</p>
+                <p>$ 107.635</p>
+            </div>
+            <div class="categorias">
+                <img src="/images/saxofon.jpg">
+                <p>Saxo Alto Yamaha Yas-280 Completo Con Estuche Boquilla Caña</p>
+                <p>$ 1.663.636</p>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    
+    <section>
+        <div>
+          <h2>CATARSIS MELODY  Instrumentos musicales al mejor precio</h2>  
+          <p>Envio gratis a todo el pais y hasta 18 cuotas sin interes.</p>
+          <p>Guitarras, Home estudio, Audio profesional y mucho mas.</p>
         </div>
-        <div class="contenedor-de-informacion">
-            <h4 class="info-contacto">INFO</h4>
-            <ul type="none" class="informacion">
-                <li class="informacion__opcion">
-                    <a class="informacion__opcion-link" href="">Sobre nosotros</a>
-                </li>
-                <li class="informacion__opcion">
-                    <a class="informacion__opcion-link" href="">Términos y acuerdos</a>
-                </li>
-                <li class="informacion__opcion">
-                    <a class="informacion__opcion-link" href="">Cómo comprar</a>
-                </li>
-            </ul>
-            <h4 class="info-contacto">CONTACTO</h4>
-            <ul type="none" class="contacto">
-                <li class="contacto__opcion">+54-1234567</li>
-                <li class="contacto__opcion">crescentmelody01@gmail.com</li>
-                <li class="contacto__opcion">Dirección</li>
-            </ul>
+    </section>
+        
+    <section>
+        <div>
+            <h2>Links</h2>  
+            <p>Nosotros</p>
+            <p>Terminos y Condiciones</p>
+            <p>Contacto</p>
         </div>
-    </footer>
+    </section>
+
+    <section>
+        <div>
+            <h2>Mi cuenta</h2>
+            <p>Mi cuenta</p>
+            <p>Carrito</p>
+            <p>Registrese!</p>
+        </div>
+    </section>
+
+    <section>             
+        <div>
+            <h2>INFO</h2>
+            <ul type="none">
+                <li><a href="#">Quienes Somos</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Como Comprar</a></li>
+                <li><a href="#">Boton de Arrepentimiento</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+            </ul>  
+        </div>    
+    </section>
+
+    <section>
+        <div>
+            <h2>CONTACTO</h2>
+            <ul type="none">
+                <li><a href="#">1568270533</a></li>
+                <li><a href="#">info@CrescentMelody.com.ar</a></li>
+            </ul>  
+        </div>   
+    </section>
+
+    <section>
+        <div class="redes">
+            <h2>SEGUINOS</h2>
+            <ul type="none">
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></i></a></li>
+            </ul> 
+        </div>
+    </section>
+
+
+</footer>
+
+
 </body>
 </html>
